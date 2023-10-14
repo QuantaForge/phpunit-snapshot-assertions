@@ -1,12 +1,12 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Test\Integration;
+namespace QuantaForge\Snapshots\Test\Integration;
 
 use PHPUnit\Framework\AssertionFailedError;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use QuantaQuirk\Snapshots\MatchesSnapshots;
+use QuantaForge\Snapshots\MatchesSnapshots;
 
 class MatchesSnapshotTest extends TestCase
 {
@@ -462,7 +462,7 @@ class MatchesSnapshotTest extends TestCase
     }
 
     /**
-     * @return \PHPUnit\Framework\MockObject\MockObject|\QuantaQuirk\Snapshots\MatchesSnapshots
+     * @return \PHPUnit\Framework\MockObject\MockObject|\QuantaForge\Snapshots\MatchesSnapshots
      */
     private function getMatchesSnapshotMock(bool $mockGetSnapshotId = true): MockObject
     {

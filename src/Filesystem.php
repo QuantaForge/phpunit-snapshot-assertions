@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Snapshots;
+namespace QuantaForge\Snapshots;
 
 class Filesystem
 {

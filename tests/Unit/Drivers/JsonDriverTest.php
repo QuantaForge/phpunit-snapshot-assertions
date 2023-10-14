@@ -1,11 +1,11 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Test\Unit\Drivers;
+namespace QuantaForge\Snapshots\Test\Unit\Drivers;
 
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
-use QuantaQuirk\Snapshots\Drivers\JsonDriver;
-use QuantaQuirk\Snapshots\Exceptions\CantBeSerialized;
+use QuantaForge\Snapshots\Drivers\JsonDriver;
+use QuantaForge\Snapshots\Exceptions\CantBeSerialized;
 
 class JsonDriverTest extends TestCase
 {

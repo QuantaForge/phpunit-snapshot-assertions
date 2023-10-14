@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Exceptions;
+namespace QuantaForge\Snapshots\Exceptions;
 
 use Exception;
 

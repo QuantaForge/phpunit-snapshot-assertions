@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Drivers;
+namespace QuantaForge\Snapshots\Drivers;
 
 use PHPUnit\Framework\Assert;
-use QuantaQuirk\Snapshots\Driver;
+use QuantaForge\Snapshots\Driver;
 use Symfony\Component\Serializer\Encoder\YamlEncoder;
 use Symfony\Component\Serializer\Normalizer\DateTimeNormalizer;
 use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;

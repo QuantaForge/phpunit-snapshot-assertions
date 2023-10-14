@@ -1,11 +1,11 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Drivers;
+namespace QuantaForge\Snapshots\Drivers;
 
 use DOMDocument;
 use PHPUnit\Framework\Assert;
-use QuantaQuirk\Snapshots\Driver;
-use QuantaQuirk\Snapshots\Exceptions\CantBeSerialized;
+use QuantaForge\Snapshots\Driver;
+use QuantaForge\Snapshots\Exceptions\CantBeSerialized;
 
 class HtmlDriver implements Driver
 {

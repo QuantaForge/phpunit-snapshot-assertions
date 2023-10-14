@@ -1,8 +1,8 @@
 {
-    "name": "quantaquirk/phpunit-snapshot-assertions",
+    "name": "quantaforge/phpunit-snapshot-assertions",
     "description": "Snapshot testing with PHPUnit",
     "keywords": [
-        "quantaquirk",
+        "quantaforge",
         "phpunit-snapshot-assertions",
         "phpunit",
         "snapshot",
@@ -28,20 +28,20 @@
         "symfony/yaml": "^5.2|^6.2"
     },
     "require-dev": {
-        "quantaquirk/pixelmatch-php": "dev-main",
-        "quantaquirk/ray": "^1.37"
+        "quantaforge/pixelmatch-php": "dev-main",
+        "quantaforge/ray": "^1.37"
     },
     "suggest": {
-        "quantaquirk/pixelmatch-php": "Required to use the image snapshot assertions"
+        "quantaforge/pixelmatch-php": "Required to use the image snapshot assertions"
     },
     "autoload": {
         "psr-4": {
-            "QuantaQuirk\\Snapshots\\": "src"
+            "QuantaForge\\Snapshots\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "QuantaQuirk\\Snapshots\\Test\\": "tests"
+            "QuantaForge\\Snapshots\\Test\\": "tests"
         }
     },
     "scripts": {

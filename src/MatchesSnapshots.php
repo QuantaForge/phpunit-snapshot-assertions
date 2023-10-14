@@ -1,18 +1,18 @@
 <?php
 
-namespace QuantaQuirk\Snapshots;
+namespace QuantaForge\Snapshots;
 
 use PHPUnit\Framework\ExpectationFailedException;
 use ReflectionObject;
-use QuantaQuirk\Snapshots\Concerns\SnapshotDirectoryAware;
-use QuantaQuirk\Snapshots\Concerns\SnapshotIdAware;
-use QuantaQuirk\Snapshots\Drivers\HtmlDriver;
-use QuantaQuirk\Snapshots\Drivers\ImageDriver;
-use QuantaQuirk\Snapshots\Drivers\JsonDriver;
-use QuantaQuirk\Snapshots\Drivers\ObjectDriver;
-use QuantaQuirk\Snapshots\Drivers\TextDriver;
-use QuantaQuirk\Snapshots\Drivers\XmlDriver;
-use QuantaQuirk\Snapshots\Drivers\YamlDriver;
+use QuantaForge\Snapshots\Concerns\SnapshotDirectoryAware;
+use QuantaForge\Snapshots\Concerns\SnapshotIdAware;
+use QuantaForge\Snapshots\Drivers\HtmlDriver;
+use QuantaForge\Snapshots\Drivers\ImageDriver;
+use QuantaForge\Snapshots\Drivers\JsonDriver;
+use QuantaForge\Snapshots\Drivers\ObjectDriver;
+use QuantaForge\Snapshots\Drivers\TextDriver;
+use QuantaForge\Snapshots\Drivers\XmlDriver;
+use QuantaForge\Snapshots\Drivers\YamlDriver;
 
 trait MatchesSnapshots
 {

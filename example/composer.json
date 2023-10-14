@@ -1,6 +1,6 @@
 {
     "require": {
-        "quantaquirk/phpunit-snapshot-assertions": "^1.0",
+        "quantaforge/phpunit-snapshot-assertions": "^1.0",
         "phpunit/phpunit": "^6.0"
     },
     "autoload": {

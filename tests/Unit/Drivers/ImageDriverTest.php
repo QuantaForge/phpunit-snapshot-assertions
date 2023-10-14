@@ -1,10 +1,10 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Test\Unit\Drivers;
+namespace QuantaForge\Snapshots\Test\Unit\Drivers;
 
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
-use QuantaQuirk\Snapshots\Drivers\ImageDriver;
+use QuantaForge\Snapshots\Drivers\ImageDriver;
 
 class ImageDriverTest extends TestCase
 {

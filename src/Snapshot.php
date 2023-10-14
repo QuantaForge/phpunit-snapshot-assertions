@@ -1,16 +1,16 @@
 <?php
 
-namespace QuantaQuirk\Snapshots;
+namespace QuantaForge\Snapshots;
 
 class Snapshot
 {
     /** @var string */
     private $id;
 
-    /** @var \QuantaQuirk\Snapshots\Filesystem */
+    /** @var \QuantaForge\Snapshots\Filesystem */
     private $filesystem;
 
-    /** @var \QuantaQuirk\Snapshots\Driver */
+    /** @var \QuantaForge\Snapshots\Driver */
     private $driver;
 
     public function __construct(

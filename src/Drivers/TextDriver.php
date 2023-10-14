@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Drivers;
+namespace QuantaForge\Snapshots\Drivers;
 
 use PHPUnit\Framework\Assert;
-use QuantaQuirk\Snapshots\Driver;
+use QuantaForge\Snapshots\Driver;
 
 class TextDriver implements Driver
 {

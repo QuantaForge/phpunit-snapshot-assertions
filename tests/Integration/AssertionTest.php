@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Test\Integration;
+namespace QuantaForge\Snapshots\Test\Integration;
 
 use PHPUnit\Framework\TestCase;
-use QuantaQuirk\Snapshots\MatchesSnapshots;
+use QuantaForge\Snapshots\MatchesSnapshots;
 
 class AssertionTest extends TestCase
 {

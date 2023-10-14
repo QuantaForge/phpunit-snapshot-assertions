@@ -1,11 +1,11 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Test\Unit;
+namespace QuantaForge\Snapshots\Test\Unit;
 
 use PHPUnit\Framework\TestCase;
-use QuantaQuirk\Snapshots\Driver;
-use QuantaQuirk\Snapshots\Filesystem;
-use QuantaQuirk\Snapshots\Snapshot;
+use QuantaForge\Snapshots\Driver;
+use QuantaForge\Snapshots\Filesystem;
+use QuantaForge\Snapshots\Snapshot;
 
 class SnapshotTest extends TestCase
 {

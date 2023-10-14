@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Test\Unit\Drivers;
+namespace QuantaForge\Snapshots\Test\Unit\Drivers;
 
 use PHPUnit\Framework\TestCase;
-use QuantaQuirk\Snapshots\Drivers\ObjectDriver;
+use QuantaForge\Snapshots\Drivers\ObjectDriver;
 
 class ObjectDriverTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Concerns;
+namespace QuantaForge\Snapshots\Concerns;
 
 use ReflectionClass;
 

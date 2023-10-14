@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Test\Integration;
+namespace QuantaForge\Snapshots\Test\Integration;
 
 trait ComparesSnapshotFiles
 {

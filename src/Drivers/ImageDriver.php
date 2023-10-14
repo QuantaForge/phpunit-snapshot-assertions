@@ -1,13 +1,13 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Drivers;
+namespace QuantaForge\Snapshots\Drivers;
 
 use Exception;
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\ExpectationFailedException;
-use QuantaQuirk\Pixelmatch\Exceptions\CouldNotCompare;
-use QuantaQuirk\Pixelmatch\Pixelmatch;
-use QuantaQuirk\Snapshots\Driver;
+use QuantaForge\Pixelmatch\Exceptions\CouldNotCompare;
+use QuantaForge\Pixelmatch\Pixelmatch;
+use QuantaForge\Snapshots\Driver;
 
 class ImageDriver implements Driver
 {
@@ -30,7 +30,7 @@ class ImageDriver implements Driver
     public function match($expected, $actual)
     {
         if (! class_exists(Pixelmatch::class)) {
-            throw new Exception('The quantaquirk/pixelmatch package is not installed. Please install it to enable image comparison.');
+            throw new Exception('The quantaforge/pixelmatch package is not installed. Please install it to enable image comparison.');
         }
 
         $tempPath = sys_get_temp_dir();

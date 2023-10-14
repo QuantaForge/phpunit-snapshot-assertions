@@ -4,7 +4,7 @@ use App\Order;
 use App\OrderLine;
 use App\OrderSerializer;
 use PHPUnit\Framework\TestCase;
-use QuantaQuirk\Snapshots\MatchesSnapshots;
+use QuantaForge\Snapshots\MatchesSnapshots;
 
 class OrderSerializerTest extends TestCase
 {
@@ -15,7 +15,7 @@ class OrderSerializerTest extends TestCase
     {
         $orderSerializer = new OrderSerializer();
 
-        $order = new Order(1, 'sebastian@quantaquirk.be', true, [
+        $order = new Order(1, 'sebastian@quantaforge.be', true, [
             new OrderLine(1, 'Sublime Text License', 70, 3),
             new OrderLine(2, 'PHPStorm License', 199, 2),
         ]);

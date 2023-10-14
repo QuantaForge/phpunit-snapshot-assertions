@@ -1,10 +1,10 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Test\Unit\Drivers;
+namespace QuantaForge\Snapshots\Test\Unit\Drivers;
 
 use PHPUnit\Framework\TestCase;
-use QuantaQuirk\Snapshots\Drivers\HtmlDriver;
-use QuantaQuirk\Snapshots\Exceptions\CantBeSerialized;
+use QuantaForge\Snapshots\Drivers\HtmlDriver;
+use QuantaForge\Snapshots\Exceptions\CantBeSerialized;
 
 class HtmlDriverTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Test\Unit;
+namespace QuantaForge\Snapshots\Test\Unit;
 
 use PHPUnit\Framework\TestCase;
-use QuantaQuirk\Snapshots\Filename;
+use QuantaForge\Snapshots\Filename;
 
 class FilenameTest extends TestCase
 {

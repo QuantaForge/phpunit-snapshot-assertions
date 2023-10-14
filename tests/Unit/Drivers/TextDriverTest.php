@@ -1,14 +1,14 @@
 <?php
 
-namespace QuantaQuirk\Snapshots\Test\Unit\Drivers;
+namespace QuantaForge\Snapshots\Test\Unit\Drivers;
 
 use PHPUnit\Framework\TestCase;
-use QuantaQuirk\Snapshots\Drivers\TextDriver;
+use QuantaForge\Snapshots\Drivers\TextDriver;
 
 class TextDriverTest extends TestCase
 {
     /** @test */
-    public function it_can_serialize_quantaquirk_route_list()
+    public function it_can_serialize_quantaforge_route_list()
     {
         $driver = new TextDriver();
 
